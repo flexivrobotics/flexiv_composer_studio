@@ -1,0 +1,21 @@
+{
+	"name": "app-web-test-frontend",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"check": "vue-tsc --noEmit",
+		"dev": "vite"
+	},
+	"dependencies": {
+		"three": "^0.183.0",
+		"vue": "^3.5.16"
+	},
+	"devDependencies": {
+		"@types/three": "^0.184.1",
+		"@vitejs/plugin-vue": "^6.0.1",
+		"typescript": "^5.9.3",
+		"vite": "^7.1.12",
+		"vue-tsc": "^3.1.4"
+	}
+}
